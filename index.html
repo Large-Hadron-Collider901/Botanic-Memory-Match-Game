@@ -5,23 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- load our css -->
     <link rel="stylesheet" href="styles.css">
     <title>Game</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="score">Score : <span class="scoreBoard">0</span></div>
-        <div class="click">Click :<span class="clickBoard">0</span></div>
-    </div>
-    <div class="grid">
-        <div class="popup">
-            <button class="playAgain">play Again</button>
-        </div>
-    </div>
-    </div>
 
-    <script src="app.js"></script>
+    <span class="wrapper">
+        <h1>Botanic Memory Match Game!</h1>
+        <div class="container">
+            <!-- score class will populate using javascript and will hold the player's score  -->
+            <div class="score">Score : <span class="scoreBoard">0</span></div>
+            <!-- we will also populate click class with javascript to show how many clicks -->
+            <div class="click">Click :<span class="clickBoard">0</span></div>
+        </div>
+        <!-- grid div class is where we will put the card images that create the game board -->
+        <div class="grid">
+            <div class="popup">
+                <!-- here is where we will put the "play again button" -->
+                <button class="playAgain">play Again</button>
+            </div>
+        </div>
+        </div>
+        <!-- load our javascript -->
+        <script src="app.js"></script>
+    </span>
 </body>
 
 </html>
