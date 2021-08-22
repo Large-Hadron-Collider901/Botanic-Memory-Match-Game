@@ -39,7 +39,7 @@ h1 {
 }
 
 .popup {
-  background: red;
+  background: paleturquoise;
   width: 200px;
   height: 200px;
   z-index: 20;
@@ -60,7 +60,7 @@ h1 {
 }
 
 .data span {
-  color: rgb(206, 121, 11);
+  color: paleturquoise;
   font-size: 30px;
 }
 
